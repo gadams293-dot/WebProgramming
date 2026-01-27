@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Order Form</title>
+</head>
+
+<body>
+    <h2>Coffee Order Form</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <p>
+            <label for="Name">Your Name:</label>
+            <input type="Text" id="Name" name="Customer Name" />
+        </p>
+        <p>
+            <label for="Email">Email Address:</label>
+            <input type="email" id="Email" name="Customer Email" />
+        </p>
+        <p>
+            <label for="Coffee Type">Coffee Type:</label>
+            <select name="Coffee Type" id="Coffee">
+                <option value="Latte">Latte</option>
+                <option value="Cappuccino">Cappuccino</option>
+                <option value="Americano">Americano</option>
+                <option value="Espresso">Espresso</option>
+            </select>
+        </p>
+        <p>
+            <input type="radio" id="Small" name="Size" value="Small">
+            <label for="Small">Small</label>
+            <input type="radio" id="Medium" name="Size" value="Medium">
+            <label for="Medium">Medium</label>
+            <input type="radio" id="Large" name="Size" value="Large">
+            <label for="Large">Large</label>
+        </p>
+        <p>
+            <div>
+                <input type="checkbox" id="Whipped Cream" name="Extras" value="Whipped Cream">
+                <label for="Whipped Cream">Whipped Cream</label>
+                <input type="checkbox" id="Extra Shot" name="Extras" value="Extra Shot">
+                <label for="Extra Shot">Extra Shot</label>
+                <input type="checkbox" id="Almond Milk" name="Extras" value="Almond Milk">
+                <label for="Almond Milk">Almond Milk</label>
+                <input type="checkbox" id="Cinnamon" name="Extras" value="Cinnamon">
+                <label for="Cinnamon">Cinnamon</label>
+                <input type="checkbox" id="Chocolate" name="Extras" value="Chocolate">
+                <label for="Chocolate">Chocolate</label>
+                <input type="checkbox" id="Hazelnut" name="Extras" value="Hazelnut">
+                <label for="Hazelnut">Hazelnut</label>
+            </div>
+        </p>
+        <p>
+            <label for="Special Instructions">Special Instructions:</label>
+            <textarea id="Special Instructions" name="Special Instructions" rows="3" cols="25"></textarea>
+        </p>
+        <p>
+        <button type="submit" formmethod="get">Submit</button>
+        </p>
+    </form>
+</body>
+
+</html>
